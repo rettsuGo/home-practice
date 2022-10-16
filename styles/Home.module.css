@@ -1,0 +1,58 @@
+
+
+#tsparticles {
+    background-image:url("../public/store1.jpg");       
+    background-size: contain;
+    background-repeat: round;
+    height:100vh;
+    color:red;
+    z-index: 2;
+}
+
+#back {
+    display:grid;
+    grid-template:
+    "left righr"1fr  /1fr 1fr;
+}
+ 
+#left {
+    grid-area:left;
+}
+
+#right {
+    grid-area:right;
+}
+/*span {
+    font-size:28px;
+    font-weight:bolder;
+    color:black;
+}*/
+
+#under1  {
+    font-weight:normal;
+    background:linear-gradient(transparent 70%, #ffff00 0%);
+}
+
+.fee {
+    font-size:29px;
+    color:red;
+}
+
+@media (min-width:650px){
+#jihi {
+    display:grid;
+    grid-template: 280px/ 100px  1fr  1fr  ;}
+}
+
+/*@media (min-width:650px){
+#about {
+    display:grid;
+    grid-template: 500px/1fr 1fr;}
+}*/
+@media (max-width:650px){
+#sb {
+    whitespace:pre;}
+#lll {
+    whitespace:pre-line}
+}
+
