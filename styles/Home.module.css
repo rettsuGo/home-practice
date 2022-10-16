@@ -44,15 +44,3 @@
     grid-template: 280px/ 100px  1fr  1fr  ;}
 }
 
-/*@media (min-width:650px){
-#about {
-    display:grid;
-    grid-template: 500px/1fr 1fr;}
-}*/
-@media (max-width:650px){
-#sb {
-    whitespace:pre;}
-#lll {
-    whitespace:pre-line}
-}
-

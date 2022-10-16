@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
-import Styles from "../styles/Home.module.css";
+import  Styles  from "../styles/Home.module.css";
 import Image from 'next/image';
 
-const text="この業界に身を置くこと２０年近くになりました。\n知識も経験も積み重ねてお伝えできることは、西洋医療の体を科ごとに分け部品とする治療の方法よりも、いわゆる東洋医療のような体全体を俯瞰的に捉え、[補完]して体を整える遠回りな治療の方が最善であり、まず治療の第一入り口になるとゆうことです。\n整骨院は、治療の入り口になる場所だと思っております。私は、そんな皆さまのお役に立てる日をお待ちしております。"
+const text="この業界に身を置くこと２０年近くになりました。知識も経験も積み重ねてお伝えできることは、西洋医療の体を科ごとに分け部品とする治療の方法よりも、いわゆる東洋医療のような体全体を俯瞰的に捉え、[補完]して体を整える遠回りな治療の方が最善であり、まず治療の第一入り口になるとゆうことです。\n整骨院は、治療の入り口になる場所だと思っております。私は、そんな皆さまのお役に立てる日をお待ちしております。"
 
 const about = () => {
     return (
@@ -19,9 +19,9 @@ const about = () => {
           </div>    
           <div className=" tracking-widest text-5xl font-extrabold  text-center sm:full p-10 mx-auto my-20" id={Styles.sb}>整骨院は
           身近で最も優しい治療です</div>
-          <div className=" mt-10  xl:flex sm:w-7/12 sm:mx-auto" id={Styles.about} >
+          <div className=" mt-10  xl:flex sm:w-7/12 sm:mx-auto"  >
             <div className=" relative">
-              <p className="text-2xl m-1   leading-10" id={Styles.lll}>{text}</p>
+              <p className="text-2xl m-1   leading-10" >{text}</p>
             </div>
             <div className=" mx-auto text-center w-full">
               <Image src="/CENTER_0001_BURST20220822154547578_COVER.JPG"   width={250} height={300}   alt="画像"/>
