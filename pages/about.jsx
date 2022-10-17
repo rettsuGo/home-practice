@@ -30,10 +30,10 @@ const about = () => {
             </div>
           </div>
           <div className=" w-full flex">
-              <img src="/store1.jpg " width={400} height={400} alt="画像"/>
-              <img src="/store2.jpg " width={400} height={400} alt="画像"/>
-              <img src="/store3.jpg " width={400} height={400} alt="画像"/>
-              <img src="/store4.jpg " width={400} height={400} alt="画像"/>
+              <Image src="/store1.jpg " width={400} height={400} alt="画像"/>
+              <Image src="/store2.jpg " width={400} height={400} alt="画像"/>
+              <Image src="/store3.jpg " width={400} height={400} alt="画像"/>
+              <Image src="/store4.jpg " width={400} height={400} alt="画像"/>
           </div>
 
           <div className="sm:flex w-screen font-extrabold whitespace-nowrap bg-gradient-to-r from-indigo-500 to-lime-300 mt-10">
