@@ -22,7 +22,7 @@ function aak() {
 
                 <div className=" w-full h-full">
                     {/* <img src="/store1.jpg" alt="store" style={{width:`100vw`,height:`100vh`}} className=" relative z-10 " /> */}
-                    <Particle />
+                    <Image src="/store1.jpg" width={2000} height={1000} alt="画像" />
                 </div>
 
             <div className=' sm:flex  sm:justify-around'>
