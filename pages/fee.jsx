@@ -36,7 +36,7 @@ const fee = () => {
                     <p className="bg-black rounded-lg  text-white w-36   mt-3 mx-auto text-2xl " >自費メニュー</p>
                     <p className=" mt-1 underline decoration-4 text-xl">保険治療+</p>
                     <p><span id={Styles.under1}>全体マッサージ</span><span>500円</span></p>
-                    <Image src="/22793616.png" alt="イメージ"　 width="200px" height="200px" className=" "/>
+                    <img src="/22793616.png" alt="イメージ"　 width="200px" height="200px" className=" "/>
                     <p><span id={Styles.under1}>トレーニング施設利用</span></p>
                     <p><span>月額３０００円で利用可能！</span></p>
                     <p className="  font-bold  text-xl" >(ビジター300円/1回)</p>
