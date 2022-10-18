@@ -1,12 +1,10 @@
 
 
 #tsparticles {
-    background-image:url("/store1.jpg");       
-    background-size: contain;
-    background-repeat: round;
+   
     height:100vh;
     color:red;
-    z-index: 2;
+    z-index:2;
 }
 
 #back {

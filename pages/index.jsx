@@ -2,7 +2,7 @@ import Link from "next/link";
 import Particle from "./particle.jsx";
 import Styles from "../styles/Home.module.css";
 import Head from 'next/head';
-import Image from "next/image.js";
+import Image from "next/image";
 
 
 function aak() {
@@ -13,7 +13,7 @@ function aak() {
             <Head>
                 <title>Re:vive整骨院</title>
             </Head>
-            <div className="  sm:grid sm:grid-cols-4   gap-4  bg-black  text-white w-screen overflow-scroll h-full sm:justify-around whitespace-nowrap  ">
+            <div className="sm:grid sm:grid-cols-4   gap-4  bg-black  text-white w-screen overflow-scroll h-full sm:justify-around whitespace-nowrap  ">
                 <p className=" text-3xl w-fit text-center mx-auto  hover:text-purple-400 hover:border-2 sm:m-9 m-2"><Link href="/about"><a>About</a></Link></p>
                 {/* <p className="text-3xl w-fit hover:border-2 hover:text-purple-400 text-center mx-auto sm:m-9 m-2"><Link href="#"><a>?</a></Link></p> */}
                 <p className="  text-3xl w-fit hover:border-2 hover:text-purple-400 text-center mx-auto sm:m-9 m-2"><Link href="./fee"><a>Menu</a></Link></p>
@@ -21,9 +21,10 @@ function aak() {
             </div>    
 
                 <div className=" w-full h-full">
-                   
+                    
+                     <Image src="/images/store1.JPG" width={2000} height={1500} alt="店" />
                     {/* <img src="/store1.jpg" width={2000} height={1000} alt="画像" /> */}
-                    <Particle/>
+                   
                 </div>
 
             <div className=' sm:flex  sm:justify-around'>
