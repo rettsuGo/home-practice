@@ -22,7 +22,7 @@ const about = () => {
           <div className=" mt-10  xl:flex sm:w-7/12 sm:mx-auto" >
             <div className=" relative">
               <p className="text-2xl m-1   leading-10" >
-              この業界に身を置くこと２０年近くになりました。知識も経験も積み重ねてお伝えできることは、西洋医療の体を科ごとに分け部品とする治療の方法よりも、いわゆる東洋医療のような体全体を俯瞰的に捉え、[補完]して体を整える遠回りな治療の方が最善であり、まず治療の第一入り口になるとゆうことです。\n整骨院は、治療の入り口になる場所だと思っております。私は、そんな皆さまのお役に立てる日をお待ちしております。
+              この業界に身を置くこと２０年近くになりました。知識も経験も積み重ねてお伝えできることは、現代医療の短絡的な投薬・手術治療の方法よりも、いわゆる東洋医療のような体を俯瞰的に捉え、[補完]しながら本来のあるべき姿へと体を整える遠回りな治療の方が最善で、健康はそれが近道だと言えます。整骨院は、そんな治療の入り口になる場所だと思っております。私は、そんな皆さまのお役に立てる日をお待ちしております。
               </p>
             </div>
             <div className=" mx-auto text-center w-full">
@@ -30,10 +30,10 @@ const about = () => {
             </div>
           </div>
           <div className=" w-full flex">
-              <Image src="/images/store1.jpg " width={450} height={300} alt="画像1"/>
-              <Image src="/images/store2.jpg " width={450} height={300} alt="画像2"/>
-              <Image src="/images/store3.jpg " width={450} height={300} alt="画像3"/>
-              <Image src="/images/store4.jpg " width={450} height={300} alt="画像4"/>
+              <Image src="/images/store1.JPG" width={450} height={300} alt="画像1"/>
+              <Image src="/images/store2.JPG" width={450} height={300} alt="画像2"/>
+              <Image src="/images/store3.JPG" width={450} height={300} alt="画像3"/>
+              <Image src="/images/store4.JPG" width={450} height={300} alt="画像4"/>
           </div>
 
           <div className="sm:flex w-screen font-extrabold whitespace-nowrap bg-gradient-to-r from-indigo-500 to-lime-300 mt-10">
